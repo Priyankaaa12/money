@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta name="view port" ontent="width=device-width,initial-scale=1">
+<style>
+body{
+font-family: arial,helvetica,sans-serif;
+background-color:#9b59b6;
+width:25%
+}
+*{
+box-sizing:border-box;
+border-radius:10px;
+}
+.container{
+padding:16px;
+background-color:purple;
+}
+input[type=text],input[type=password]
+{
+width:100%;
+padding:15px;
+margin:5px 0 22px 0;
+display:inline-block;
+border:none;
+background:#f1f1f1;
+}
+input[type=text]:focus,input[type=password]:focus{
+background-color:#ddd;
+outline:none;
+}
+.registerbtn{
+background-color:#d9d9d9;
+color:white;
+padding:16px20px;
+margin:8px 0;
+border:none;
+width:50%;
+opacity:0.9;
+}
+.registerbtn:hover{
+opacity:1;
+}
+a{
+color:dodgerblue;
+}
+.signin{
+background-color:#f1f1f1;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<form action="A2.html">
+<div class="container">
+<h1><center>SIGN UP</center></h1>
+<label for="name"><b>NAME</b></label>
+<input type="text" placeholder="ENTER YOUR NAME" name="name" id="name" required>
+<label for=" last name"><b>LAST NAME</b></label>
+<input type="text" placeholder="ENTER YOUR LAST NAME" name="name" id="name" required>
+
+
+
+<label for="email"><b>EMAIL</b></label>
+<input type="text" placeholder="ENTER YOUR EMAIL" name="email" id="email" required>
+<label for="psw"><b>PASSWORD</b></label>
+<input type="password" placeholder="ENTER PASSWORD" name="psw" id="psw" required>
+<label for="psw-repeat"><b>CONFIRM PSSWORD</b></label>
+<input type="psw-repeat" placeholder="CONFIRM PASSWORD" name="psw-repeat" id="psw-repeat" required>
+
+<button type="submit" class="registerbtn">Register</button>
+
+</div>
+</form>
+</body>
+</html>
+
